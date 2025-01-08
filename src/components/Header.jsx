@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
 
 import logo from '../assets/logo.png';
-import classes from './Header.module.css';
+// import classes from './Header.module.css';
 
 const StyledHeader = styled.header`
   display: flex;
@@ -17,7 +17,7 @@ export default function Header() {
     <StyledHeader>
       <img src={logo} alt="A canvas" />
       <h1>ReactArt</h1>
-      <p className={classes.paragraph}>A community of artists and art-lovers.</p>
+      <p>A community of artists and art-lovers.</p>
     </StyledHeader>
   );
 }
